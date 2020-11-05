@@ -1,0 +1,25 @@
+---
+#-------UPDATE DISTRIBUTIONS-----------------
+- name: Update OS
+  include_tasks: update_os.yml
+
+- name: Install python3
+  package:
+    name:
+      - python3
+      - python3-pip
+    state: present
+
+- name: Upgrade pip3
+  command: pip3 install --upgrade pip
+  changed_when: false
+
+- name: Install packages with pip3
+  pip:
+    name: "{{ item }}"
+    executable: pip3
+  changed_when: false
+  when: pip3_packages is defined
+  with_items:
+    - "{{ pip3_packages }}"
+  
