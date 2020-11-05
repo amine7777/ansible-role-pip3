@@ -17,7 +17,7 @@ Requirements
 
 Role Variables
 --------------
-This role will install python 3 and pip3. If you would like to install pip3 packages, all what you have to do is to edit pip3 packages list. The role uses pip module from ansible.
+This role will install python3 and pip3. If you would like to install pip3 packages, all what you have to do is to edit pip3 packages list. The role uses pip module from ansible.
 
 ```yaml
 pip3_packages:
