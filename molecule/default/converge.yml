@@ -10,4 +10,4 @@
 
     - name: Include ansible-role-pip3
       include_role:
-        name: "ansible-role-pip3"
+        name: "{{ lookup('env', 'MOLECULE_PROJECT_DIRECTORY') | basename }}"
