@@ -6,7 +6,7 @@ This role helps you to install pip3 on your linux machine.
 
 |Travis|GitHubActions|Quality|Downloads|Version|
 |------|-------------|-------|---------|-------|
-|[![travis](https://travis-ci.com/amine7777/ansible-role-pip3.svg?branch=master)](https://travis-ci.com/amine7777/ansible-role-pip3)|[![github](https://github.com/amine7777/ansible-role-pip3/workflows/CI/badge.svg)](https://github.com/amine7777/ansible-role-pip3/actions)|[![quality](https://img.shields.io/ansible/quality/50498)](https://galaxy.ansible.com/amine7777/pip3)|[![downloads](https://img.shields.io/ansible/role/d/50348)](https://galaxy.ansible.com/amine7777/pip3)|[![Version](https://img.shields.io/github/release/amine7777/ansible-role-pip3.svg)](https://github.com/amine7777/ansible-role-pip3/releases/)|
+|[![travis](https://travis-ci.com/amine7777/ansible-role-pip3.svg?branch=master)](https://travis-ci.com/amine7777/ansible-role-pip3)|[![github](https://github.com/amine7777/ansible-role-pip3/workflows/CI/badge.svg)](https://github.com/amine7777/ansible-role-pip3/actions)|[![quality](https://img.shields.io/ansible/quality/51670)](https://galaxy.ansible.com/amine7777/pip3)|[![downloads](https://img.shields.io/ansible/role/d/51670)](https://galaxy.ansible.com/amine7777/pip3)|[![Version](https://img.shields.io/github/release/amine7777/ansible-role-pip3.svg)](https://github.com/amine7777/ansible-role-pip3/releases/)|
 
 ![](python.png)
 
