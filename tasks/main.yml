@@ -18,6 +18,4 @@
   command: pip3 install {{ item }}
   changed_when: false
   when: pip3_packages is defined
-  with_items:
-    - "{{ pip3_packages }}"
-  
+  with_items: "{{ pip3_packages }}"
